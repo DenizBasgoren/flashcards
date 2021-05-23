@@ -1,0 +1,126 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+}
+
+div {
+	/* border: 1px solid black; */
+	text-align: center;
+	background-color: rgb(42, 42, 48);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.App {
+	flex-direction: column;
+	height: 100%;
+}
+
+.App > div {
+	flex: 1;
+}
+
+.left1rightX {
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.left1rightX > *:nth-child(1) {
+	flex: 1;
+}
+
+.left1rightX > *:nth-child(2) {
+	flex: 5;
+}
+
+.swTrue {
+	font-weight: bold;
+}
+
+.swTrue:nth-child(1) {
+	border: 3px solid rgb(173, 0, 0);
+	color:rgb(173, 0, 0);
+}
+.swTrue:nth-child(2) {
+	border: 3px solid rgb(217, 255, 0);
+	color:rgb(217, 255, 0);
+}
+.swTrue:nth-child(3) {
+	border: 3px solid rgb(0, 161, 0);
+	color:rgb(0, 161, 0);
+}
+.swTrue:nth-child(4) {
+	border: 3px solid rgb(0, 0, 177);
+	color:rgb(0, 0, 177);
+}
+.swTrue:nth-child(5) {
+	border: 3px solid rgb(174, 0, 255);
+	color:rgb(174, 0, 255);
+}
+
+
+.Filters {
+	height: 50px;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.Filters > div {
+	width: 10%;
+	height: 100%;
+	margin: 2px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+.Hanzi {
+	font-size: 5em;
+	max-height: 50%;
+	width: 100%;
+}
+
+.Cards {
+	flex-direction: column;
+	width: 100%;
+}
+
+.Cards > pre {
+	display: block;
+	flex: 100%;
+	padding: 10px;
+	background-color: rgb(31, 31, 39);
+	border-radius: 5px;
+	margin: 5px;
+	cursor: pointer;
+	width: 99%;
+}
+
+
+.Card {
+	display: block;
+	height: 50px;
+	cursor: pointer;
+	background-color: rgb(31, 31, 39);
+	border-radius: 5px;
+	margin: 5px;
+	font-size: 20px;
+	padding: 15px 0 0 0;
+}
+.Card:hover {
+	background-color:rgb(29, 29, 34);
+}
