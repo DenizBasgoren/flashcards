@@ -2,6 +2,11 @@ import './style'
 import { useState, useEffect } from 'preact/hooks'
 import dataStr from './data.js'
 
+// notes:
+// - after building, go to index.html, change all "/ to "
+// - the data, for now, is part of the final bundle. we'll later disintegrate into /data folder
+
+
 let data = dataStr.trim().split(/(?:\n\r?)+/m).map(l => l.split(/\t+/).map(w => w.replace('\\n','\n')))
 
 if(typeof window !== 'undefined')
