@@ -1,0 +1,12 @@
+--2021-05-24 17:44:22--  https://docs.google.com/spreadsheets/d/e/2PACX-1vSmm2ppKvVo93mPs2gkKJGgz88zYjCeQHxjLrrupKI0B2Kr2giuXXq6D6o6VtG7oWLE-nlVUEXmK4CJ/pubhtml?gid=2015324540
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving docs.google.com (docs.google.com)... 142.250.187.110, 2a00:1450:4017:80f::200e
+Connecting to docs.google.com (docs.google.com)|142.250.187.110|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘pubhtml?gid=2015324540’
+
+pubhtml?gid=2015324540                [<=>                                                          ]       0  --.-KB/s               pubhtml?gid=2015324540                [ <=>                                                         ]  81.46K   407KB/s               pubhtml?gid=2015324540                [  <=>                                                        ] 213.56K   530KB/s               pubhtml?gid=2015324540                [   <=>                                                       ] 349.51K   579KB/s               pubhtml?gid=2015324540                [    <=>                                                      ] 500.56K   622KB/s               pubhtml?gid=2015324540                [     <=>                                                     ] 691.91K   688KB/s               pubhtml?gid=2015324540                [      <=>                                                    ] 932.26K   773KB/s               pubhtml?gid=2015324540                [       <=>                                                   ]   1.16M   842KB/s               pubhtml?gid=2015324540                [        <=>                                                  ]   1.41M   896KB/s               pubhtml?gid=2015324540                [         <=>                                                 ]   1.43M   905KB/s    in 1.6s    
+
+2021-05-24 17:44:25 (905 KB/s) - ‘pubhtml?gid=2015324540’ saved [1497647]
+

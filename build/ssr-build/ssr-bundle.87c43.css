@@ -8,6 +8,22 @@ h1 {
 	text-align: center;
 }
 
+select {
+    background: transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /* border: 1px solid #888;
+    border-radius: 5px; */
+    /* border: 2px solid white; */
+	background-color: rgb(29, 29, 34);
+    padding: 5px;
+	margin-right: 5px;
+	border: 0;
+	border-radius: 5px;
+    cursor: pointer;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -107,6 +123,8 @@ div {
 	-ms-flex-direction: column;
 	    flex-direction: column;
 	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .Cards > pre {
@@ -119,6 +137,8 @@ div {
 	margin: 5px;
 	cursor: pointer;
 	width: 99%;
+	overflow-x: auto;
+	overflow-y: auto;
 }
 
 
@@ -136,4 +156,4 @@ div {
 	background-color:rgb(29, 29, 34);
 }
 
-/*# sourceMappingURL=ssr-bundle.2f0ee.css.map*/
+/*# sourceMappingURL=ssr-bundle.87c43.css.map*/
